@@ -156,7 +156,7 @@ Search http user agent values for unusual characters.
 
 <img src="38.png" alt="Screenshot 38" width="760">
 
-Review an LDAP style value in an http user agent while keeping the address masked.
+Review an ldap style value in an http user agent while keeping the address masked.
 
 <img src="39.png" alt="Screenshot 39" width="760">
 
@@ -180,7 +180,7 @@ Confirm the same tls exchange in the decrypted capture view.
 
 <img src="44.png" alt="Screenshot 44" width="760">
 
-Inspect an HTTP two request header and its authority value.
+Inspect an http two request header and its authority value.
 
 <img src="45.png" alt="Screenshot 45" width="760">
 
