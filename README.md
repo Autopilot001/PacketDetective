@@ -228,9 +228,15 @@ Reviewed firewall allow rules and their matching address and port entries.
 
 <img src="56.png" alt="Screenshot 56" width="760">
 
-## What stood out
+## Findings
 
-The most useful approach was to start with one filter, inspect a matching packet, then follow the related traffic. The captures also showed why exposed credentials need careful handling and why tls decryption depends on the matching session keys.
+Also, plain text ftp exposed login attempts and file activity. One failed login returned a 530 response. That was a useful clue!
+
+On the other hand, a filter for the wrong destination returned no packets. The empty result was a reminder to check the host before drawing a conclusion.
+
+Did the HTTP response contain the room flag? It did!
+
+The tls traffic became readable after the matching key log file was loaded. Filters for dns and netbios also helped connect traffic with host names.
 
 ## A final note
 
