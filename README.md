@@ -1,6 +1,6 @@
-# Packet Detective
+# Preso al volo
 
-## TryHackMe Wireshark Traffic Analysis
+##  Wireshark traffic reading
 
 The walkthrough follows the room from basic filters to deeper packet checks. Display filters narrow the traffic, then packet details help explain what each result means. Every screenshot has a short note describing the step shown.
 
