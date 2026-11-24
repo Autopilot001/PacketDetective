@@ -1,6 +1,6 @@
-# Packet Detective
+#
 
-## TryHackMe Wireshark Traffic Analysis
+## Wireshark Traffic Analysis
 
 The walkthrough follows the room from basic filters to deeper packet checks. Display filters narrow the traffic, then packet details help explain what each result means. Screenshots are stored in the screenshots folder and each note describes the step shown
 
